@@ -42,7 +42,11 @@ $(document).ready(function () {
     $.ajax({
       type: 'POST',
       url: 'http://0.0.0.0:5001/api/v1/places_search/',
-      data: JSON.stringify({ amenities: Object.values(amDict) }),
+      data: JSON.stringify({
+        amenities: Object.values(amDict),
+        states: Object.values(stDict),
+        cities: Object.values(ciDict)
+      }),
       contentType: 'application/json',
       success: function (result, status, xhr) {
         $('section > article').remove();
