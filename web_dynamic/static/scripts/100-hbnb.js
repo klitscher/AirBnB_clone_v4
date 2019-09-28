@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   const stDict = {};
- $('#stateLi:checkbox').change(function () {
+ $('.stateLi').change(function () {
     if ($(this).is(':checked')) {
       stDict[($(this).attr('data-name'))] = $(this).attr('data-id');
     } else {
@@ -11,7 +11,7 @@ $(document).ready(function () {
   });
 
   const ciDict = {};
- $('#cityLi:checkbox').change(function () {
+ $('.cityLi').change(function () {
     if ($(this).is(':checked')) {
       ciDict[($(this).attr('data-name'))] = $(this).attr('data-id');
     } else {
@@ -21,7 +21,7 @@ $(document).ready(function () {
   });
 
   const amDict = {};
-  $('#amenityLi:checkbox').change(function () {
+  $('.amenityLi').change(function () {
     if ($(this).is(':checked')) {
       amDict[($(this).attr('data-name'))] = $(this).attr('data-id');
     } else {
