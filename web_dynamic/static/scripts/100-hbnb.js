@@ -1,7 +1,7 @@
 $(document).ready(function () {
-
+// populate selected state list
   const stDict = {};
- $('.stateLi').change(function () {
+  $('.stateLi').change(function () {
     if ($(this).is(':checked')) {
       stDict[($(this).attr('data-name'))] = $(this).attr('data-id');
     } else {
@@ -10,8 +10,9 @@ $(document).ready(function () {
     $('.locations > h4').text(Object.keys(stDict).join(', '));
   });
 
+  // populate selected city list
   const ciDict = {};
- $('.cityLi').change(function () {
+  $('.cityLi').change(function () {
     if ($(this).is(':checked')) {
       ciDict[($(this).attr('data-name'))] = $(this).attr('data-id');
     } else {
@@ -20,6 +21,7 @@ $(document).ready(function () {
     $('.locations > h4').text(Object.keys(ciDict).join(', '));
   });
 
+  // populate selected amenities list
   const amDict = {};
   $('.amenityLi').change(function () {
     if ($(this).is(':checked')) {
