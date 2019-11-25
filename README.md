@@ -218,7 +218,7 @@ github repo
 * Carrie Ybay, [hicarrie](https://github.com/hicarrie) | [@hicarrie_](https://twitter.com/hicarrie_)
 * Jared Heck, [jarehec](https://github.com/jarehec) | [@jarehec](https://twitter.com/jarehec)
 * Nate Petersen, [blueexcess](https://github.com/blueExcess) | [@natefp](https://twitter.com/natefp)
-* Kyle Litscher, [klitscher](https://github.com/klitscher)
+* [Kyle Litscher](https://github.com/klitscher) | [LinkedIn](https://www.linkedin.com/in/kylelitscher/) | [Twitter](https://twitter.com/Coding_KGL)
 
 ## License
 
