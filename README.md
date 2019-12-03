@@ -4,6 +4,8 @@
 
 : API with Swagger
 
+<img src="https://github.com/klitscher/AirBnB_clone_v4/blob/master/dev/Airbnb.jpg">
+
 ## Description
 
 Project attempts to clone the the AirBnB application and website, including the
